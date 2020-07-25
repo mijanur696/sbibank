@@ -12,15 +12,19 @@
 <body>
    
     <div class="container-fluid">
-        <center>
-        <h1>Welcome to Pioneer Bank</h1>
-       <div id="mylogin" class="shadow-lg p-3 mb-5 bg-white rounded w-50 mt-5">
+        
+        <h1 class="d-flex justify-content-center">Welcome to Pioneer Bank</h1>
+        <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+       <div id="mylogin" class="shadow-lg p-3 mb-5 bg-white rounded  mt-5">
            <h2>Log in</h2>
-        <input type="text" placeholder="Enter Your Email" class="form-control w-50"/><br>
-        <input type="password" placeholder="Enter Your Password" class="form-control w-50"/> <br>
+        <input type="text" placeholder="Enter Your Email" class="form-control"/><br>
+        <input type="password" placeholder="Enter Your Password" class="form-control"/> <br>
         <button id="login" class="btn btn-success w-25">Log in</button>
        </div>
-    </center>
+      </div>
+      </div>
+    
     </div>
 
     <div class="container-fluid mt-5" style="display: none; color: #f1f1f1;" id="depositdiv">
@@ -48,14 +52,28 @@
 
       </div>
 
+
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 shadow-lg p-5 m-5 bg-white rounded">
+             <h3 class="mb-3" style="color: black;">Deposit</h3>
+             <input type="number" class="form-control mt-4" placeholder="$ Amount you want to Deposit"/>
+            <button type="button" class="btn btn-success w-50 mt-4">Deposit</button>
+          </div>
+
+          
+          <div class="col-md-5 shadow-lg p-5 m-5 bg-white rounded">
+            
+             <h3 class="mb-3" style="color: black;">Withdraw</h3>
+             <input type="number" class="form-control mt-4" placeholder="$ Amount you want to Withdraw"/>
+            <button type="button" class="btn btn-success w-50 mt-4">Deposit</button>
+             
+            </div>
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-
 <script src="script.js"></script>
 </body>
 </html>
