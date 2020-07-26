@@ -5,7 +5,6 @@ document.getElementById('login').addEventListener("click", function myfun(){
 })
 
 
-
 document.getElementById("deposit_button").addEventListener("click",function deposit(){
      var deposit_value=document.getElementById("deposit_input").value;
      document.getElementById("initial-deposit").innerHTML=deposit_value;
